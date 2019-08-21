@@ -1,0 +1,31 @@
+/**
+ * @version $Id: print.css 14401 2010-01-26 14:10:00Z louis $
+ * @author Design & Accessible Team ( Angie Radtke / Robert Deutz )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+
+#main ul, #main2 ul {
+list-style-type:none;
+padding:0 0 0 10px;
+margin:0 0 8px 20px;
+overflow: visible;
+}
+
+#main ul li, #main2 ul li {
+/*background: url(../images/beitrag/dreieck.gif) no-repeat left 0.2em;*/
+padding:0 0 0 18px;
+list-style-type:none;
+}
+
+img.printbutton {
+  display: none;
+}

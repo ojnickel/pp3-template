@@ -1,0 +1,125 @@
+
+
+/**
+ * @version $Id: ie7only.css 14401 2010-01-26 14:10:00Z louis $
+ * @author Design & Accessible Team ( Angie Radtke / Robert Deutz )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+.contentdescription {height:1%}
+
+#right form.poll
+{
+	/* nur fuer IE-Win;
+	 * definierte groe�e (height or witdh)
+	 * fuer automatisches einbeziehen
+	 * der Float-Container (auto-clearing);
+	 *
+	 * verbergen IE-Mac \*/
+	height: 1%;
+	/* ende verbergen IE-Mac */
+}
+
+form.login input
+{
+	margin:0 0 0 -10px
+}
+
+#main2 .box_container .box_neutral {
+  float:left; 
+  display:inline;
+  padding-bottom:32767px;
+  margin-bottom:-32767px;
+}   
+
+#main2 .box_container .box_referenz {
+  float:right; display:inline;
+  margin-left:-5px;
+  padding-bottom:32767px;
+  margin-bottom:-32767px;
+}   
+
+#main2 .contentnavi2 {
+  margin-bottom: 24px;
+}
+
+#main2 .contentnavi2 ul {
+  border-bottom: 1px solid #c7d2d2;
+  border-bottom: 1px solid #c7d2d2;
+  margin-bottom: -12px;
+ }
+ 
+ .logo_rechts {
+float:right;
+margin:-23px 45px 0 0px;
+}
+
+.logo_digi {
+	float: right;
+	margin:-23px 120px 0 0;
+}
+
+.logo_seide {
+	float: right;
+	margin:-23px 150px 0 0;
+}
+
+.logo_itil {
+float:right;
+margin:-25px 35px 0 0px;
+}
+
+.logo_smirage {
+float:right;
+margin:-23px 120px 0 0px;
+}
+
+.logo_gaertnerei {
+float:right;
+margin: -40px 43px;
+}
+
+.logo_links {
+float:left;
+padding:25px 30px 0 15px;
+}
+
+p.logo_rechts_bw {
+float:right;
+margin:10px 20px 20px 289px;
+} 
+ 
+ /* ##################### Tabellen ####################### */
+/*
+ #main table, #main2 table {
+background: url(../images/allgemein/schatten.gif) no-repeat center 18px;
+}
+*/
+#main table thead, #main2 table thead {
+  background-image:  none;
+}
+
+#main table tbody tr td, #main2 table tbody tr td {
+  background-image: none
+}
+
+.stelle-datum,
+.stelle-pos,
+.stelle-unt {
+  display:inline-block;
+  zoom: 1;  display: inline;  /* IE7 Hack */
+}
+
+.blog_stellenangebote .stelle-unt.st-med,
+.blog_wohnenppstellenangebote .stelle-unt.st-med {
+  display: inline-block;
+  zoom: 1;  display: inline;  /* IE7 Hack */
+}

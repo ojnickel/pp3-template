@@ -22,7 +22,7 @@ defined('_JEXEC') or die;
 			$menu = $app->getMenu()->getActive();
 			// OWS Josef Mueller
 			if (!$menu) {
-				$menu = &JSite::getMenu();
+				$menu = JFactory::getApplication()->getMenu();
 				$menu = $menu->getItem(338);
 			}
 			if ($menu) {
